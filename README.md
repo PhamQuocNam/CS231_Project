@@ -13,7 +13,7 @@
 | STT | MSSV     | Họ và Tên          | Chức vụ      | Github                | Email                         |
 |-----|----------|-------------------|--------------|----------------------|------------------------------|
 | 1   | 23520984 | Phạm Quốc Nam     | Nhóm trưởng  | [Nem](https://github.com/PhamQuocNam) | 23520984@gm.uit.edu.vn |
-| 2   | 2352---- | Hà Tuấn Anh       | Thành viên   |  |  |
+| 2   | 23520044 | Hà Tuấn Anh       | Thành viên   |  |  |
 ---
 
 ## Giới thiệu môn học
