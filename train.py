@@ -23,6 +23,7 @@ class Trainer:
             self.model = YOLOV8(weights).to(DEVICE)
         else:
             logger.error("MODEL_NAME is not suitable!")
+            raise Exception("MODEL_NAME is not suitable!")
         
         data_dir = DATA_DIR
         data_files = os.listdir(data_dir)
@@ -54,7 +55,6 @@ class Trainer:
         save_checkpoint(MODEL_NAME, self.best_weights, self.optimizer, EPOCHS,CHECKPOINT_PATH )
         logger.info("Done!!!")
   
-    
     
     def _train(self):
         total_training_loss= []

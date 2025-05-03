@@ -1,0 +1,7 @@
+2025-05-03 02:07:41,779 - INFO - Loading best model weights
+2025-05-03 02:07:42,133 - INFO - Epoch 1 
+Training Loss: 0.20972815431330516 
+Validation Loss: 0.22251486778259277
+2025-05-03 02:33:58,933 - INFO - Epoch 2 
+Training Loss: 0.16131698680312737 
+Validation Loss: 0.24496836960315704
