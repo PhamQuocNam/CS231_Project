@@ -6,6 +6,7 @@
   </a>
 </p>
 
+<source src="./assets/VIS_Demo.mp4" type="video/mp4">
 ## 📝 Project Overview
 
 - **Project Title**: Human Detection in Special Environments (Fog, Darkness, etc.)
