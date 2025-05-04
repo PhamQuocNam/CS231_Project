@@ -26,7 +26,12 @@ class Trainer:
             raise Exception("MODEL_NAME is not suitable!")
         
         data_dir = DATA_DIR
-        data_files = os.listdir(data_dir)
+        try:
+            data_files = os.listdir(data_dir)
+        except:
+            logger.error("DATA_DIR is not available!!!")
+            FileNotFoundError("DATA_DIR is not available!")
+        
         total_image_files, total_label_files= [],[]
         
         for file in data_files:
@@ -107,7 +112,6 @@ class Trainer:
         return avg_loss
         
         
-
 
 def main():
 
