@@ -25,7 +25,7 @@
 ### 🔆 Normal Environment
 
 <div align="center">
-  <video controls width="600">
+  <video controls width="600" height="600">
     <source src="./assets/VIS_Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
@@ -34,7 +34,7 @@
 ### 🌫️ Special Environment (Fog / Darkness)
 
 <div align="center">
-  <video controls width="600">
+  <video controls width="600" height="600">
     <source src="./assets/IR_Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
