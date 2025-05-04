@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<source src="./assets/VIS_Demo.mp4" type="video/mp4">
+
 ## 📝 Project Overview
 
 - **Project Title**: Human Detection in Special Environments (Fog, Darkness, etc.)
@@ -25,21 +25,17 @@
 
 ### 🔆 Normal Environment
 
-<div align="center">
-  <video controls width="600" height="600">
-    <source src="./assets/VIS_Demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
+
+https://github.com/user-attachments/assets/ab8cdccd-b66c-4112-9623-897c3b4460d5
+
+
 
 ### 🌫️ Special Environment (Fog / Darkness)
 
-<div align="center">
-  <video controls width="600" height="600">
-    <source src="./assets/IR_Demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+
+https://github.com/user-attachments/assets/d5254332-95b5-47f1-b457-b7ab23f5b853
+
 
 ## 🛠️ Installation & Usage
 
