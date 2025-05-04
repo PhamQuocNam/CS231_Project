@@ -53,9 +53,7 @@ pip install -r requirements.txt
 ```
 
 ### 📁 Project Folder Structure
-bash
-Copy
-Edit
+```bash
 CS231_Project/
 ├── checkpoints/      # Model checkpoints
 ├── data/             # Dataset
@@ -65,6 +63,7 @@ CS231_Project/
 ├── train.py          # Training script
 ├── infer.py          # Inference script
 └── requirements.txt
+```
 
 ### 🚀 Usage
 #### 🔧 Training
