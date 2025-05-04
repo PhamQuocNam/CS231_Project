@@ -27,6 +27,7 @@
 <div align="center">
   <video controls width="600">
     <source src="./assets/VIS_Demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 </div>
 
@@ -35,6 +36,7 @@
 <div align="center">
   <video controls width="600">
     <source src="./assets/IR_Demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
 </div>
 
