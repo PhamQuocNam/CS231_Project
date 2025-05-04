@@ -11,7 +11,7 @@ CHECKPOINT_PATH = "checkpoints/best_model.pth"
 MODEL_NAME='FasterRCNN'
 INPUT_CHANNELS = 3
 NUM_CLASSES = 10
-CHECKPOINT_FILE = "checkpoints/best_model.pth/FasterRCNN_model_epoch1.pth"
+CHECKPOINT_FILE = "checkpoints/FasterRCNN_model_epoch10.pth"
 
 # Training Hyperparameters
 BATCH_SIZE = 8

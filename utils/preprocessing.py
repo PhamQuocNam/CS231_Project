@@ -46,9 +46,11 @@ def check(dataset, n_samples):
         sample=img.permute(1,2,0).numpy().copy()
         for box in boxes:
             sample=cv2.rectangle(sample,(box[0], box[1]),(box[2], box[3]),(220, 0, 0), 3)
-        plt.imshow(sample)
+        plt.figure(figsize=(8, 6))
         plt.axis('off')
-        plt.show()
+        plt.imshow(sample)
+        plt.savefig(f"image_test/image{i}.png", bbox_inches='tight', pad_inches=0)
+        plt.close()
         
 def get_dataloader(dataset, batch_size=32, shuffle=True):
     return DataLoader(dataset, batch_size, shuffle, collate_fn=collate_fn)

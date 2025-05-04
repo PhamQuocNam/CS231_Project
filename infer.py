@@ -23,6 +23,7 @@ class Predictor:
             
     def preprocessing(self, image_file):
         image = Image.open(image_file).convert("RGB")
+        image = image.resize((600,600))
         image = transform['test'](image)
         image = image.unsqueeze(0)
         return image
@@ -40,6 +41,7 @@ class Predictor:
 
         boxes=pp_boxes.to('cpu').detach().cpu().numpy().astype(np.int32)
         image=cv2.imread(image_file)
+        image = cv2.resize(image,(600,600))
         logger.info("Label Bounding Boxes")
         for box in boxes:
             image = cv2.rectangle(image,(box[0], box[1]),(box[2], box[3]),(0,255,0), 3) 

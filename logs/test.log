@@ -1,0 +1,312 @@
+2025-05-04 03:55:41,447 - INFO - Prepare Image
+2025-05-04 03:55:41,877 - INFO - Inference
+2025-05-04 03:55:44,260 - INFO - Label Bounding Boxes
+2025-05-04 03:55:44,299 - INFO - Done!!!
+2025-05-04 03:58:14,027 - INFO - Prepare Image
+2025-05-04 03:58:14,139 - INFO - Inference
+2025-05-04 03:58:17,878 - INFO - Label Bounding Boxes
+2025-05-04 03:58:17,937 - INFO - Done!!!
+2025-05-04 04:20:47,412 - INFO - Prepare Image
+2025-05-04 04:20:47,567 - INFO - Inference
+2025-05-04 04:20:51,377 - INFO - Label Bounding Boxes
+2025-05-04 04:20:51,424 - INFO - Prepare Image
+2025-05-04 04:20:51,562 - INFO - Inference
+2025-05-04 04:20:54,066 - INFO - Label Bounding Boxes
+2025-05-04 04:20:54,104 - INFO - Prepare Image
+2025-05-04 04:20:54,217 - INFO - Inference
+2025-05-04 04:20:56,745 - INFO - Label Bounding Boxes
+2025-05-04 04:20:56,782 - INFO - Prepare Image
+2025-05-04 04:20:56,893 - INFO - Inference
+2025-05-04 04:20:59,512 - INFO - Label Bounding Boxes
+2025-05-04 04:20:59,551 - INFO - Prepare Image
+2025-05-04 04:20:59,664 - INFO - Inference
+2025-05-04 04:21:02,759 - INFO - Label Bounding Boxes
+2025-05-04 04:21:02,797 - INFO - Prepare Image
+2025-05-04 04:21:02,820 - INFO - Inference
+2025-05-04 04:21:05,591 - INFO - Label Bounding Boxes
+2025-05-04 04:21:05,594 - INFO - Prepare Image
+2025-05-04 04:21:05,608 - INFO - Inference
+2025-05-04 04:21:08,648 - INFO - Label Bounding Boxes
+2025-05-04 04:21:08,651 - INFO - Prepare Image
+2025-05-04 04:21:08,665 - INFO - Inference
+2025-05-04 04:21:11,506 - INFO - Label Bounding Boxes
+2025-05-04 04:21:11,509 - INFO - Prepare Image
+2025-05-04 04:21:11,529 - INFO - Inference
+2025-05-04 04:21:14,292 - INFO - Label Bounding Boxes
+2025-05-04 04:21:14,295 - INFO - Done!!!
+2025-05-04 21:33:28,659 - INFO - Prepare Image
+2025-05-04 21:33:28,779 - INFO - Inference
+2025-05-04 21:33:31,048 - INFO - Label Bounding Boxes
+2025-05-04 21:33:31,086 - INFO - Prepare Image
+2025-05-04 21:33:31,168 - INFO - Inference
+2025-05-04 21:33:33,162 - INFO - Label Bounding Boxes
+2025-05-04 21:33:33,196 - INFO - Prepare Image
+2025-05-04 21:33:33,283 - INFO - Inference
+2025-05-04 21:33:35,283 - INFO - Label Bounding Boxes
+2025-05-04 21:33:35,315 - INFO - Prepare Image
+2025-05-04 21:33:35,390 - INFO - Inference
+2025-05-04 21:33:38,382 - INFO - Label Bounding Boxes
+2025-05-04 21:33:38,423 - INFO - Prepare Image
+2025-05-04 21:33:38,541 - INFO - Inference
+2025-05-04 21:33:41,689 - INFO - Label Bounding Boxes
+2025-05-04 21:33:41,727 - INFO - Prepare Image
+2025-05-04 21:33:41,889 - INFO - Inference
+2025-05-04 21:33:44,583 - INFO - Label Bounding Boxes
+2025-05-04 21:33:44,614 - INFO - Prepare Image
+2025-05-04 21:33:44,729 - INFO - Inference
+2025-05-04 21:33:47,321 - INFO - Label Bounding Boxes
+2025-05-04 21:33:47,355 - INFO - Prepare Image
+2025-05-04 21:33:47,464 - INFO - Inference
+2025-05-04 21:33:50,873 - INFO - Label Bounding Boxes
+2025-05-04 21:33:50,913 - INFO - Prepare Image
+2025-05-04 21:33:51,034 - INFO - Inference
+2025-05-04 21:33:53,853 - INFO - Label Bounding Boxes
+2025-05-04 21:33:53,903 - INFO - Prepare Image
+2025-05-04 21:33:54,017 - INFO - Inference
+2025-05-04 21:33:56,687 - INFO - Label Bounding Boxes
+2025-05-04 21:33:56,728 - INFO - Prepare Image
+2025-05-04 21:33:56,823 - INFO - Inference
+2025-05-04 21:33:59,317 - INFO - Label Bounding Boxes
+2025-05-04 21:33:59,361 - INFO - Prepare Image
+2025-05-04 21:33:59,382 - INFO - Inference
+2025-05-04 21:34:02,603 - INFO - Label Bounding Boxes
+2025-05-04 21:34:02,607 - INFO - Prepare Image
+2025-05-04 21:34:02,630 - INFO - Inference
+2025-05-04 21:34:05,869 - INFO - Label Bounding Boxes
+2025-05-04 21:34:05,873 - INFO - Prepare Image
+2025-05-04 21:34:05,937 - INFO - Inference
+2025-05-04 21:34:10,319 - INFO - Label Bounding Boxes
+2025-05-04 21:34:10,321 - INFO - Prepare Image
+2025-05-04 21:34:10,354 - INFO - Inference
+2025-05-04 21:34:13,972 - INFO - Label Bounding Boxes
+2025-05-04 21:34:13,975 - INFO - Done!!!
+2025-05-04 21:35:38,239 - INFO - Prepare Image
+2025-05-04 21:35:38,385 - INFO - Inference
+2025-05-04 21:35:40,712 - INFO - Label Bounding Boxes
+2025-05-04 21:35:40,751 - INFO - Prepare Image
+2025-05-04 21:35:40,823 - INFO - Inference
+2025-05-04 21:35:42,862 - INFO - Label Bounding Boxes
+2025-05-04 21:35:42,893 - INFO - Prepare Image
+2025-05-04 21:35:42,961 - INFO - Inference
+2025-05-04 21:35:44,983 - INFO - Label Bounding Boxes
+2025-05-04 21:35:45,011 - INFO - Prepare Image
+2025-05-04 21:35:45,080 - INFO - Inference
+2025-05-04 21:35:47,381 - INFO - Label Bounding Boxes
+2025-05-04 21:35:47,413 - INFO - Prepare Image
+2025-05-04 21:35:47,482 - INFO - Inference
+2025-05-04 21:35:49,537 - INFO - Label Bounding Boxes
+2025-05-04 21:35:49,574 - INFO - Prepare Image
+2025-05-04 21:35:49,646 - INFO - Inference
+2025-05-04 21:35:52,281 - INFO - Label Bounding Boxes
+2025-05-04 21:35:52,314 - INFO - Prepare Image
+2025-05-04 21:35:52,412 - INFO - Inference
+2025-05-04 21:35:54,821 - INFO - Label Bounding Boxes
+2025-05-04 21:35:54,859 - INFO - Prepare Image
+2025-05-04 21:35:54,941 - INFO - Inference
+2025-05-04 21:35:58,751 - INFO - Label Bounding Boxes
+2025-05-04 21:35:58,809 - INFO - Prepare Image
+2025-05-04 21:35:58,909 - INFO - Inference
+2025-05-04 21:36:02,936 - INFO - Label Bounding Boxes
+2025-05-04 21:36:02,979 - INFO - Prepare Image
+2025-05-04 21:36:03,091 - INFO - Inference
+2025-05-04 21:36:05,950 - INFO - Label Bounding Boxes
+2025-05-04 21:36:05,999 - INFO - Prepare Image
+2025-05-04 21:36:06,103 - INFO - Inference
+2025-05-04 21:36:09,404 - INFO - Label Bounding Boxes
+2025-05-04 21:36:09,442 - INFO - Prepare Image
+2025-05-04 21:36:09,455 - INFO - Inference
+2025-05-04 21:36:12,139 - INFO - Label Bounding Boxes
+2025-05-04 21:36:12,142 - INFO - Prepare Image
+2025-05-04 21:36:12,150 - INFO - Inference
+2025-05-04 21:36:14,994 - INFO - Label Bounding Boxes
+2025-05-04 21:36:14,997 - INFO - Prepare Image
+2025-05-04 21:36:15,004 - INFO - Inference
+2025-05-04 21:36:17,787 - INFO - Label Bounding Boxes
+2025-05-04 21:36:17,789 - INFO - Prepare Image
+2025-05-04 21:36:17,798 - INFO - Inference
+2025-05-04 21:36:20,599 - INFO - Label Bounding Boxes
+2025-05-04 21:36:20,601 - INFO - Done!!!
+2025-05-04 21:37:31,635 - INFO - Prepare Image
+2025-05-04 21:37:31,772 - INFO - Inference
+2025-05-04 21:37:34,471 - INFO - Label Bounding Boxes
+2025-05-04 21:37:34,518 - INFO - Prepare Image
+2025-05-04 21:37:34,604 - INFO - Inference
+2025-05-04 21:37:36,894 - INFO - Label Bounding Boxes
+2025-05-04 21:37:36,929 - INFO - Prepare Image
+2025-05-04 21:37:37,012 - INFO - Inference
+2025-05-04 21:37:39,571 - INFO - Label Bounding Boxes
+2025-05-04 21:37:39,602 - INFO - Prepare Image
+2025-05-04 21:37:39,680 - INFO - Inference
+2025-05-04 21:37:41,867 - INFO - Label Bounding Boxes
+2025-05-04 21:37:41,901 - INFO - Prepare Image
+2025-05-04 21:37:41,976 - INFO - Inference
+2025-05-04 21:37:44,054 - INFO - Label Bounding Boxes
+2025-05-04 21:37:44,085 - INFO - Prepare Image
+2025-05-04 21:37:44,160 - INFO - Inference
+2025-05-04 21:37:46,277 - INFO - Label Bounding Boxes
+2025-05-04 21:37:46,309 - INFO - Prepare Image
+2025-05-04 21:37:46,393 - INFO - Inference
+2025-05-04 21:37:48,488 - INFO - Label Bounding Boxes
+2025-05-04 21:37:48,520 - INFO - Prepare Image
+2025-05-04 21:37:48,597 - INFO - Inference
+2025-05-04 21:37:50,840 - INFO - Label Bounding Boxes
+2025-05-04 21:37:50,875 - INFO - Prepare Image
+2025-05-04 21:37:50,963 - INFO - Inference
+2025-05-04 21:37:53,769 - INFO - Label Bounding Boxes
+2025-05-04 21:37:53,807 - INFO - Prepare Image
+2025-05-04 21:37:53,904 - INFO - Inference
+2025-05-04 21:37:57,887 - INFO - Label Bounding Boxes
+2025-05-04 21:37:57,986 - INFO - Prepare Image
+2025-05-04 21:37:58,245 - INFO - Inference
+2025-05-04 21:38:02,669 - INFO - Label Bounding Boxes
+2025-05-04 21:38:02,748 - INFO - Prepare Image
+2025-05-04 21:38:02,797 - INFO - Inference
+2025-05-04 21:38:05,873 - INFO - Label Bounding Boxes
+2025-05-04 21:38:05,876 - INFO - Prepare Image
+2025-05-04 21:38:05,894 - INFO - Inference
+2025-05-04 21:38:08,501 - INFO - Label Bounding Boxes
+2025-05-04 21:38:08,504 - INFO - Prepare Image
+2025-05-04 21:38:08,520 - INFO - Inference
+2025-05-04 21:38:10,985 - INFO - Label Bounding Boxes
+2025-05-04 21:38:10,988 - INFO - Prepare Image
+2025-05-04 21:38:11,004 - INFO - Inference
+2025-05-04 21:38:13,923 - INFO - Label Bounding Boxes
+2025-05-04 21:38:13,925 - INFO - Done!!!
+2025-05-04 21:40:10,546 - INFO - Prepare Image
+2025-05-04 21:40:10,640 - INFO - Inference
+2025-05-04 21:40:12,917 - INFO - Label Bounding Boxes
+2025-05-04 21:40:12,924 - INFO - Prepare Image
+2025-05-04 21:40:13,028 - INFO - Inference
+2025-05-04 21:40:15,914 - INFO - Label Bounding Boxes
+2025-05-04 21:40:15,918 - INFO - Prepare Image
+2025-05-04 21:40:16,004 - INFO - Inference
+2025-05-04 21:40:18,614 - INFO - Label Bounding Boxes
+2025-05-04 21:40:18,620 - INFO - Prepare Image
+2025-05-04 21:40:18,701 - INFO - Inference
+2025-05-04 21:40:21,371 - INFO - Label Bounding Boxes
+2025-05-04 21:40:21,376 - INFO - Prepare Image
+2025-05-04 21:40:21,474 - INFO - Inference
+2025-05-04 21:40:24,096 - INFO - Label Bounding Boxes
+2025-05-04 21:40:24,101 - INFO - Prepare Image
+2025-05-04 21:40:24,188 - INFO - Inference
+2025-05-04 21:40:26,910 - INFO - Label Bounding Boxes
+2025-05-04 21:40:26,915 - INFO - Prepare Image
+2025-05-04 21:40:27,002 - INFO - Inference
+2025-05-04 21:40:29,554 - INFO - Label Bounding Boxes
+2025-05-04 21:40:29,559 - INFO - Prepare Image
+2025-05-04 21:40:29,645 - INFO - Inference
+2025-05-04 21:40:32,291 - INFO - Label Bounding Boxes
+2025-05-04 21:40:32,297 - INFO - Prepare Image
+2025-05-04 21:40:32,388 - INFO - Inference
+2025-05-04 21:40:35,663 - INFO - Label Bounding Boxes
+2025-05-04 21:40:35,667 - INFO - Prepare Image
+2025-05-04 21:40:35,790 - INFO - Inference
+2025-05-04 21:40:40,177 - INFO - Label Bounding Boxes
+2025-05-04 21:40:40,183 - INFO - Prepare Image
+2025-05-04 21:40:40,364 - INFO - Inference
+2025-05-04 21:40:43,949 - INFO - Label Bounding Boxes
+2025-05-04 21:40:43,955 - INFO - Prepare Image
+2025-05-04 21:40:43,968 - INFO - Inference
+2025-05-04 21:40:47,529 - INFO - Label Bounding Boxes
+2025-05-04 21:40:47,532 - INFO - Prepare Image
+2025-05-04 21:40:47,544 - INFO - Inference
+2025-05-04 21:40:50,853 - INFO - Label Bounding Boxes
+2025-05-04 21:40:50,856 - INFO - Prepare Image
+2025-05-04 21:40:50,869 - INFO - Inference
+2025-05-04 21:40:55,483 - INFO - Label Bounding Boxes
+2025-05-04 21:40:55,490 - INFO - Prepare Image
+2025-05-04 21:40:55,515 - INFO - Inference
+2025-05-04 21:40:58,617 - INFO - Label Bounding Boxes
+2025-05-04 21:40:58,622 - INFO - Done!!!
+2025-05-04 21:42:34,571 - INFO - Prepare Image
+2025-05-04 21:42:34,674 - INFO - Inference
+2025-05-04 21:42:37,275 - INFO - Label Bounding Boxes
+2025-05-04 21:42:37,279 - INFO - Prepare Image
+2025-05-04 21:42:37,374 - INFO - Inference
+2025-05-04 21:42:39,912 - INFO - Label Bounding Boxes
+2025-05-04 21:42:39,916 - INFO - Prepare Image
+2025-05-04 21:42:40,012 - INFO - Inference
+2025-05-04 21:42:42,477 - INFO - Label Bounding Boxes
+2025-05-04 21:42:42,481 - INFO - Prepare Image
+2025-05-04 21:42:42,581 - INFO - Inference
+2025-05-04 21:42:45,124 - INFO - Label Bounding Boxes
+2025-05-04 21:42:45,128 - INFO - Prepare Image
+2025-05-04 21:42:45,229 - INFO - Inference
+2025-05-04 21:42:47,709 - INFO - Label Bounding Boxes
+2025-05-04 21:42:47,712 - INFO - Prepare Image
+2025-05-04 21:42:47,817 - INFO - Inference
+2025-05-04 21:42:50,333 - INFO - Label Bounding Boxes
+2025-05-04 21:42:50,337 - INFO - Prepare Image
+2025-05-04 21:42:50,435 - INFO - Inference
+2025-05-04 21:42:52,945 - INFO - Label Bounding Boxes
+2025-05-04 21:42:52,949 - INFO - Prepare Image
+2025-05-04 21:42:53,053 - INFO - Inference
+2025-05-04 21:42:55,677 - INFO - Label Bounding Boxes
+2025-05-04 21:42:55,682 - INFO - Prepare Image
+2025-05-04 21:42:55,803 - INFO - Inference
+2025-05-04 21:42:58,377 - INFO - Label Bounding Boxes
+2025-05-04 21:42:58,382 - INFO - Prepare Image
+2025-05-04 21:42:58,498 - INFO - Inference
+2025-05-04 21:43:01,571 - INFO - Label Bounding Boxes
+2025-05-04 21:43:01,576 - INFO - Prepare Image
+2025-05-04 21:43:01,719 - INFO - Inference
+2025-05-04 21:43:05,244 - INFO - Label Bounding Boxes
+2025-05-04 21:43:05,249 - INFO - Prepare Image
+2025-05-04 21:43:05,263 - INFO - Inference
+2025-05-04 21:43:08,606 - INFO - Label Bounding Boxes
+2025-05-04 21:43:08,610 - INFO - Prepare Image
+2025-05-04 21:43:08,626 - INFO - Inference
+2025-05-04 21:43:11,579 - INFO - Label Bounding Boxes
+2025-05-04 21:43:11,582 - INFO - Prepare Image
+2025-05-04 21:43:11,603 - INFO - Inference
+2025-05-04 21:43:14,724 - INFO - Label Bounding Boxes
+2025-05-04 21:43:14,727 - INFO - Prepare Image
+2025-05-04 21:43:14,743 - INFO - Inference
+2025-05-04 21:43:17,660 - INFO - Label Bounding Boxes
+2025-05-04 21:43:17,663 - INFO - Done!!!
+2025-05-04 21:43:52,448 - INFO - Prepare Image
+2025-05-04 21:43:52,529 - INFO - Inference
+2025-05-04 21:43:54,785 - INFO - Label Bounding Boxes
+2025-05-04 21:43:54,789 - INFO - Prepare Image
+2025-05-04 21:43:54,895 - INFO - Inference
+2025-05-04 21:43:57,184 - INFO - Label Bounding Boxes
+2025-05-04 21:43:57,187 - INFO - Prepare Image
+2025-05-04 21:43:57,268 - INFO - Inference
+2025-05-04 21:44:00,509 - INFO - Label Bounding Boxes
+2025-05-04 21:44:00,514 - INFO - Prepare Image
+2025-05-04 21:44:00,667 - INFO - Inference
+2025-05-04 21:44:04,848 - INFO - Label Bounding Boxes
+2025-05-04 21:44:04,852 - INFO - Prepare Image
+2025-05-04 21:44:04,966 - INFO - Inference
+2025-05-04 21:44:07,615 - INFO - Label Bounding Boxes
+2025-05-04 21:44:07,620 - INFO - Prepare Image
+2025-05-04 21:44:07,734 - INFO - Inference
+2025-05-04 21:44:10,091 - INFO - Label Bounding Boxes
+2025-05-04 21:44:10,095 - INFO - Prepare Image
+2025-05-04 21:44:10,200 - INFO - Inference
+2025-05-04 21:44:12,734 - INFO - Label Bounding Boxes
+2025-05-04 21:44:12,739 - INFO - Prepare Image
+2025-05-04 21:44:12,858 - INFO - Inference
+2025-05-04 21:44:15,334 - INFO - Label Bounding Boxes
+2025-05-04 21:44:15,339 - INFO - Prepare Image
+2025-05-04 21:44:15,465 - INFO - Inference
+2025-05-04 21:44:18,508 - INFO - Label Bounding Boxes
+2025-05-04 21:44:18,512 - INFO - Prepare Image
+2025-05-04 21:44:18,618 - INFO - Inference
+2025-05-04 21:44:21,417 - INFO - Label Bounding Boxes
+2025-05-04 21:44:21,421 - INFO - Prepare Image
+2025-05-04 21:44:21,541 - INFO - Inference
+2025-05-04 21:44:23,922 - INFO - Label Bounding Boxes
+2025-05-04 21:44:23,928 - INFO - Prepare Image
+2025-05-04 21:44:23,952 - INFO - Inference
+2025-05-04 21:44:27,176 - INFO - Label Bounding Boxes
+2025-05-04 21:44:27,179 - INFO - Prepare Image
+2025-05-04 21:44:27,193 - INFO - Inference
+2025-05-04 21:44:30,014 - INFO - Label Bounding Boxes
+2025-05-04 21:44:30,017 - INFO - Prepare Image
+2025-05-04 21:44:30,033 - INFO - Inference
+2025-05-04 21:44:33,075 - INFO - Label Bounding Boxes
+2025-05-04 21:44:33,078 - INFO - Prepare Image
+2025-05-04 21:44:33,097 - INFO - Inference
+2025-05-04 21:44:35,623 - INFO - Label Bounding Boxes
+2025-05-04 21:44:35,626 - INFO - Done!!!

@@ -8,7 +8,7 @@ import sys
 from models import FasterRCNNModel, YOLOV8
 import torchvision
 from config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_PATH
-from utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint
+from utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint, check
 import copy
 logger = get_logger(name="training_logger", log_file="logs/train.log")
 
@@ -35,10 +35,8 @@ class Trainer:
             total_label_files += label_files
             
         train_image_files,val_image_files, train_label_files, val_label_files= data_splitting(total_image_files, total_label_files)
-        
-        train_dataset = Dataset(train_image_files, train_label_files,transform['train']) 
+        train_dataset = Dataset(train_image_files, train_label_files,transform['train'])
         val_dataset =  Dataset(val_image_files, val_label_files, transform['val'])
-        
         self.train_loader = get_dataloader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
         self.val_loader = get_dataloader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
         
@@ -102,7 +100,7 @@ class Trainer:
             self.model.load_state_dict(self.best_weights)
         
         if sum(total_loss)<self.best_validation_loss:
-            logger.info("Loading best model weights")
+            logger.info("Updating best model weights")
             self.best_validation_loss=sum(total_loss)
             self.best_weights=copy.deepcopy(self.model.state_dict())
         
