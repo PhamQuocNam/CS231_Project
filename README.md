@@ -18,8 +18,8 @@
 
 | #  | Student ID | Name             | Role        | GitHub                                                | Email                     |
 |----|------------|------------------|-------------|--------------------------------------------------------|---------------------------|
-| 1  | 23520984   | Phạm Quốc Nam    | Team Leader | [@PhamQuocNam](https://github.com/PhamQuocNam)         | 23520984@gm.uit.edu.vn    |
-| 2  | 23520044   | Hà Tuấn Anh      | Member      |                                                        |                           |
+| 1  | 23520984   | Phạm Quốc Nam    | Team Leader | [@PhamQuocNam](https://github.com/PhamQuocNam)         | 23520984@gm.uit.edu.vn   |
+| 2  | 23520044   | Hà Tuấn Anh      | Member      |    [@HaTuanAnh](https://github.com/tuananhpa)          | 23520044@gm.uit.edu.vn  |
 
 ## 🎥 Project Demonstration
 

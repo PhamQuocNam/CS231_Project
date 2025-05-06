@@ -10,5 +10,11 @@ from ultralytics import YOLO
 class YOLOV8(nn.Module):
     def __init__(self,weights):
         yolo = YOLO(weights)
+        
+        
+
+    def forward(self,x):
+        return self.yolo(x)
+    
     
     

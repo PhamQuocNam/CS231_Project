@@ -1,14 +1,14 @@
-from utils.logger import get_logger
+from .utils.logger import get_logger
 import os
 import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
 import sys
-from models import FasterRCNNModel, YOLOV8
+from .models import FasterRCNNModel, YOLOV8
 import torchvision
-from config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_PATH
-from utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint, check
+from .config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_PATH
+from .utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint, check
 import copy
 logger = get_logger(name="training_logger", log_file="logs/train.log")
 
@@ -18,9 +18,6 @@ class Trainer:
         if MODEL_NAME == 'FasterRCNN':
             weights = torchvision.models.detection.FasterRCNN_ResNet50_FPN_Weights.DEFAULT
             self.model = FasterRCNNModel(weights).to(DEVICE)
-        elif MODEL_NAME =='YOLOV8':
-            weights = 'yolov8.pt'
-            self.model = YOLOV8(weights).to(DEVICE)
         else:
             logger.error("MODEL_NAME is not suitable!")
             raise Exception("MODEL_NAME is not suitable!")
