@@ -55,9 +55,10 @@ def check(dataset, n_samples):
 def get_dataloader(dataset, batch_size=32, shuffle=True):
     return DataLoader(dataset, batch_size, shuffle, collate_fn=collate_fn)
 
-def data_splitting(X,y, test_size=0.2 ,shuffle=False):
-    X_train,X_test, y_train,y_test = train_test_split(X,y, test_size=test_size, shuffle=shuffle)
-    return X_train, X_test, y_train, y_test
+def data_splitting(X,y):
+    X_train,X_val, y_train,y_val = train_test_split(X,y, test_size=0.4, shuffle=True)
+    X_val,X_test, y_val, y_test = train_test_split(X_val,y_val, test_size=0.5, shuffle=True)
+    return X_train, X_val, X_test, y_train, y_val, y_test
 
         
 def extract_files(file_path):

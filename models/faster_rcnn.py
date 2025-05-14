@@ -16,12 +16,10 @@ class FasterRCNNModel(nn.Module):
         self.model = model
         
     def forward(self,X, y=None):
-        if self.training and y is not None:
-            # Training mode: Expect X and y (targets) for computing losses
+        if self.training and y is not None:     
             losses = self.model(X, y)
             return losses
         else:
-            # Inference mode: Return detection outputs
             outputs = self.model(X)
             return outputs
     
