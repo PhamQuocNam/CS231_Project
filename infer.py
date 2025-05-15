@@ -1,8 +1,8 @@
 from models import FasterRCNNModel, YOLOV8
 import torchvision
-from config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_FILE,\
+from config import MODEL_NAME, CHECKPOINT_FILE,\
     SOURCE_PATH, RESULT_PATH
-from utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, get_logger
+from utils import transform,  get_logger
 import copy
 import os
 import torch

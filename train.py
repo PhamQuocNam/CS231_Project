@@ -1,14 +1,13 @@
-from .utils.logger import get_logger
 import os
 import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
 import sys
-from .models import FasterRCNNModel, YOLOV8
+from models import FasterRCNNModel
 import torchvision
-from .config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_PATH
-from .utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint, check, training_visualizing, get_detection
+from config import DEVICE, BATCH_SIZE, EPOCHS, LEARNING_RATE, MODEL_NAME, DATA_DIR, CHECKPOINT_PATH
+from utils import extract_files, Dataset, transform, data_splitting, get_dataloader, get_lr, save_checkpoint, check, training_visualizing, get_detection,get_logger
 import copy
 from sklearn.metrics import precision_score, recall_score, f1_score
 
@@ -43,11 +42,15 @@ class Trainer:
         val_dataset =  Dataset(val_image_files, val_label_files, transform['val'])
         test_dataset = Dataset(test_image_files, test_label_files, transform['test'])
         
+        check(train_dataset, 10)
+        check(val_dataset,5)
+        check(test_dataset,5)
+        
         self.train_loader = get_dataloader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
         self.val_loader = get_dataloader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
         self.test_loader = get_dataloader(test_dataset, batch_size=BATCH_SIZE,shuffle=False)
         
-        self.optimizer = torch.optim.Adam(self.model.parameters(), lr = LEARNING_RATE,  weight_decay=0.1)
+        self.optimizer = torch.optim.Adam(self.model.parameters(), lr = LEARNING_RATE)
         self.lr_scheduler=torch.optim.lr_scheduler.ReduceLROnPlateau(self.optimizer, mode='min', factor=0.1, 
                                                   patience=8, threshold=0.0001)
             
@@ -57,9 +60,7 @@ class Trainer:
         self.best_weights= self.model.state_dict() 
         history= self._train()
         training_visualizing(history)
-        logger.infor("Prepare for evaluation!!!")
-        
-        
+        logger.info("Prepare for evaluation!!!")
         
         save_checkpoint(MODEL_NAME, self.best_weights, self.optimizer, EPOCHS,CHECKPOINT_PATH )
         logger.info("Done!!!")
@@ -112,7 +113,7 @@ class Trainer:
             
             val_loss= self.val(current_lr)
             total_valid_loss.append(val_loss)
-            logger.info(f"Epoch {epoch+1} \nTraining Loss: {epoch_loss} \nValidation Loss: {val_loss}")
+            logger.info(f"""Epoch {epoch+1} \nTraining Loss: {epoch_loss} \nValidation Loss: {val_loss}""")
         
         logger.info(f"Average Training: {sum(total_training_loss)/len(total_training_loss)}")
         logger.info(f"Average Validation: {sum(total_valid_loss)/len(total_valid_loss)}")

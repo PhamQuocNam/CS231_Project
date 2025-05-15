@@ -16,7 +16,7 @@ CHECKPOINT_FILE = "checkpoints/FasterRCNN_model_epoch10.pth"
 # Training Hyperparameters
 BATCH_SIZE = 32
 EPOCHS = 100
-LEARNING_RATE = 0.1
+LEARNING_RATE = 0.01
 # Logging
 LOG_INTERVAL = 10
 

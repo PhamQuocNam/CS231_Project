@@ -60,7 +60,6 @@ def data_splitting(X,y):
     X_val,X_test, y_val, y_test = train_test_split(X_val,y_val, test_size=0.5, shuffle=True)
     return X_train, X_val, X_test, y_train, y_val, y_test
 
-        
 def extract_files(file_path):
     img_files = []
     label_files = []
