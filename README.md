@@ -75,8 +75,13 @@ CS231_Project/
 1. Place input images into the 'data_source/' folder
 2. Download the pretrained weights from:
     https://drive.google.com/drive/u/0/folders/1o_JQ31oXJ-QBaAgnmXquhMkuw7F6HWDk
- 3. Run:
-python infer.py
+3. Run:
+    uvicorn main:app --reload
+4. Open **http://127.0.0.1:8000/docs**
+5. Find the /predict/ endpoint.
+6. Click "Try it out".
+7. Upload a file (image).
+8. Click "Execute".
 ```
 
 ## 📂 Dataset
