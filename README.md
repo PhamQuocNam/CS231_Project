@@ -40,7 +40,11 @@ https://github.com/user-attachments/assets/d5254332-95b5-47f1-b457-b7ab23f5b853
 ## 🛠️ Installation & Usage
 
 ### ✅ Prerequisites
+<<<<<<< HEAD
 - Python 3.x
+=======
+- Python 3.12
+>>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec
 - Git
 
 ### 📦 Setup Instructions

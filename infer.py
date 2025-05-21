@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from models import FasterRCNNModel
+=======
+from models import FasterRCNNModel, YOLOV8
+>>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec
 import torchvision
 from config import MODEL_NAME, CHECKPOINT_FILE,\
     SOURCE_PATH, RESULT_PATH
@@ -40,10 +44,15 @@ class Predictor:
         pp_boxes=pp_boxes[nms]
 
         boxes=pp_boxes.to('cpu').detach().cpu().numpy().astype(np.int32)
+<<<<<<< HEAD
         
         image = Image.open(image_file).resize((600,600)).convert("RGB")
         image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
         
+=======
+        image=cv2.imread(image_file)
+        image = cv2.resize(image,(600,600))
+>>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec
         logger.info("Label Bounding Boxes")
         for box in boxes:
             image = cv2.rectangle(image,(box[0], box[1]),(box[2], box[3]),(0,255,0), 3) 
@@ -57,6 +66,9 @@ def main():
         cv2.imwrite(f'{RESULT_PATH}/pred_{image_file}',predictor.predict(os.path.join(SOURCE_PATH,image_file)))
     logger.info("Done!!!")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec
 if __name__ == '__main__':
     main()
