@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 numpy
 opencv_python
 opencv_python_headless
@@ -12,16 +11,3 @@ tqdm
 ultralytics
 fastapi
 uvicorn[standard]
-=======
-numpy==2.2.5
-opencv_python==4.11.0.86
-opencv_python_headless==4.11.0.86
-pandas==2.2.3
-Pillow==11.2.1
-pytest==8.3.5
-scikit_learn==1.6.1
-torch==2.7.0
-torchvision==0.22.0
-tqdm==4.67.1
-ultralytics==8.3.73
->>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec

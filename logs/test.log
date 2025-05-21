@@ -356,7 +356,6 @@
 2025-05-12 14:09:07,292 - INFO - Inference
 2025-05-12 14:09:09,648 - INFO - Label Bounding Boxes
 2025-05-12 14:09:09,653 - INFO - Done!!!
-<<<<<<< HEAD
 2025-05-21 22:43:33,658 - INFO - Prepare Image
 2025-05-21 22:43:34,127 - INFO - Inference
 2025-05-21 22:46:44,959 - INFO - Prepare Image
@@ -465,5 +464,3 @@
 2025-05-22 00:48:07,259 - INFO - Prepare Image
 2025-05-22 00:48:07,280 - INFO - Inference
 2025-05-22 00:48:10,978 - INFO - Label Bounding Boxes
-=======
->>>>>>> 46ffe22f9ada4dec9d87b7d47846b3ae925bceec
