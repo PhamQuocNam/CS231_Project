@@ -1,0 +1,13 @@
+numpy
+opencv_python
+opencv_python_headless
+pandas
+Pillow
+pytest
+scikit_learn
+torch
+torchvision
+tqdm
+ultralytics
+fastapi
+uvicorn[standard]
